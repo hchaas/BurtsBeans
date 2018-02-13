@@ -30,24 +30,7 @@
             <main>
                 <div>
                     <h2>Burt's Coffee Beans</h2>
-                    <!--                    <table>
-                                            <tr>
-                                                <th>Light Roast</th>
-                                                <td>Our light house blend offers a smooth, enchanting experience.<br>
-                                                    1 lb of beans $12.00</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Breakfast Blend</th>
-                                                <td>Wake up with a crowd-pleasing favorite breakfast bean blend.<br>
-                                                    1 lb of beans $12.00</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Dark Roast</th>
-                                                <td>The dark roast is Burt's specialty.<br>
-                                                    1 lb beans $14.00</td>
-                                            </tr>
-                                        </table>-->
-
+                    <h3> Product Detail</h3>
                     
                         <table>
                             <%

@@ -20,9 +20,9 @@ public class ProductService {
             if (product.getProductID().equals(id)) {
                 theProduct = product;
             }
-
+            
         }
-        return null;
+        return theProduct;
     }
 
     public List<Product> findProducts(String search) {
@@ -35,8 +35,8 @@ public class ProductService {
         }
         return returnProduct;
     }
-    
-    public List<Product> getAllProducts(){
+
+    public List<Product> getAllProducts() {
         return productList;
     }
 }

@@ -67,12 +67,12 @@ public class ProductController extends HttpServlet {
         } else if (search != null) {
             List<Product> productList = productService.findProducts(search);
             request.setAttribute("productList", productList);
-            dispatcher = request.getRequestDispatcher("/productDetail.jsp");
+            dispatcher = request.getRequestDispatcher("/productList.jsp");
             // go to nameList.jsp
         } else {
             List<Product> productList = productService.getAllProducts();
             request.setAttribute("productList", productList);
-            dispatcher = request.getRequestDispatcher("/productDetail.jsp");
+            dispatcher = request.getRequestDispatcher("/productList.jsp");
             // go to nameList.jsp
         }
 
