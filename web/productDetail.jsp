@@ -31,24 +31,10 @@
                 <div>
                     <h2>Burt's Coffee Beans</h2>
                     <h3> Product Detail</h3>
+
+                    <%--details to be added later--%>
+                   
                     
-                        <table>
-                            <%
-                                List<Product> productList = (List<Product>) request.getAttribute("productList");
-                                for (Product product : productList) {
-                            %>
-                            <tr>
-                                <td><%= product.getProductName()%></td>
-                                <td>
-                                    <a href="?id=<%=product.getProductID()%>"><%= product.getProductDescription()%></a>
-                                </td>
-
-                            </tr>
-                            <%
-                                }
-                            %>
-
-                        </table>
                     </body>
 
 
